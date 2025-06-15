@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router"
 import Home from "./pages/home/Home"
-import Quiz from "./pages/quiz/quiz"
+import Quiz from "./pages/quiz/Quiz"
 import Random from "./pages/practice/Random"
 
 
