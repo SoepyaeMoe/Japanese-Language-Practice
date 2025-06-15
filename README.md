@@ -1,2 +1,2 @@
 ## Demo Link
-https://budget-tracker-8820.onrender.com/
+https://japanese-language-practice.onrender.com
