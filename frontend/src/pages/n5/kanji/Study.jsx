@@ -54,18 +54,55 @@ const Study = () => {
                             >
                                 <div className="text-2xl font-bold">{kanji.kanji}</div>
                                 <div className="text-xl">{kanji.meaning}</div>
-                                {kanji.reading && (
-                                    <div className="text-sm text-gray-600">[{kanji.reading}]</div>
-                                )}
+
+                                {/* On / Kun readings */}
+                                <div className="text-sm text-gray-700 mt-2">
+                                    {kanji.on && (
+                                        <div>
+                                            <span className="font-semibold">On:</span>{" "}
+                                            {Array.isArray(kanji.on) ? kanji.on.join(", ") : kanji.on}
+                                        </div>
+                                    )}
+                                    {kanji.kun && (
+                                        <div>
+                                            <span className="font-semibold">Kun:</span>{" "}
+                                            {Array.isArray(kanji.kun) ? kanji.kun.join(", ") : kanji.kun}
+                                        </div>
+                                    )}
+                                </div>
+
+                                {/* Examples / Sentences with reading and translation */}
                                 {Array.isArray(kanji.examples) &&
-                                    kanji.examples.map((example) => (
+                                    kanji.examples.map((example, idx) => (
                                         <div
-                                            key={example.id}
-                                            className="text-sm text-gray-700 mt-2"
+                                            key={example.id ?? idx}
+                                            className="mt-3 p-2 border rounded bg-gray-50"
                                         >
-                                            {example.example}
+                                            <div className="text-sm text-gray-800">
+                                                {example.sentence ?? example.example}
+                                            </div>
+
                                         </div>
                                     ))}
+
+                                <div className="mt-3 p-2 border rounded bg-gray-50">
+                                    {kanji.sentence && (
+                                        <div className="text-xs text-gray-600 italic mt-1">
+                                            {kanji.sentence}
+                                        </div>
+                                    )}
+                                    {kanji.reading && (
+                                        <div className="text-xs text-gray-600 italic mt-1">
+                                            {kanji.reading}
+                                        </div>
+                                    )}
+
+                                    {kanji.translation && (
+                                        <div className="text-xs text-gray-600 mt-1">
+                                            {kanji.translation}
+                                        </div>
+                                    )}
+                                </div>
                             </div>
                         ))}
                     </div>
