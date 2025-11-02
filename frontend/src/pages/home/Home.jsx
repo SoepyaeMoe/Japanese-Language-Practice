@@ -16,6 +16,9 @@ const Home = () => {
             <Link to="/n5/kanji/practice" className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mt-4">
                 Practice N5 Kanji
             </Link>
+            <Link to="n5/kanji/quiz" className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mt-4">
+                N5 Kanji Quiz
+            </Link>
         </div>
     );
 }
