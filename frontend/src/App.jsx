@@ -5,6 +5,9 @@ import Random from "./pages/practice/Random"
 import Study from "./pages/n5/kanji/Study"
 import Practice from "./pages/n5/kanji/Practice"
 import KanjiQuiz from "./pages/n5/kanji/Quiz"
+import N4Practice from "./pages/n4/kanji/Practice"
+import N4Study from "./pages/n4/kanji/Study"
+import N4Quiz from "./pages/n4/kanji/Quiz"
 
 function App() {
   return (
@@ -15,6 +18,11 @@ function App() {
       <Route path="/n5/kanji/study" element={<Study />} />
       <Route path="/n5/kanji/practice" element={<Practice />} />
       <Route path="/n5/kanji/quiz" element={<KanjiQuiz />} />
+
+      <Route path="/n4/kanji/study" element={< N4Study />} />
+      <Route path="/n4/kanji/practice" element={<N4Practice />} />
+      <Route path="/n4/kanji/quiz" element={<N4Quiz />} />
+
     </Routes >
   )
 }
