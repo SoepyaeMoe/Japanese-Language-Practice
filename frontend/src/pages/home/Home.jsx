@@ -19,6 +19,16 @@ const Home = () => {
             <Link to="n5/kanji/quiz" className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mt-4">
                 N5 Kanji Quiz
             </Link>
+
+            <Link to="/n4/kanji/study" className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mt-4">
+                Study N4 Kanji
+            </Link>
+            <Link to="n4/kanji/practice" className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mt-4">
+                N4 kanji Practice
+            </Link>
+            <Link to="n4/kanji/quiz" className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mt-4">
+                N4 Kanji Quiz
+            </Link>
         </div>
     );
 }
