@@ -478,6 +478,366 @@ const n4KanjiDataList = [
             { "id": 2, "example": "太平洋 (たいへいよう) — Pacific Ocean" },
             { "id": 3, "example": "太陽 (たいよう) — sun" }
         ]
+    },
+    {
+        "id": 33,
+        "kanji": "朝",
+        "meaning": "morning",
+        "on": "チョウ",
+        "kun": "あさ",
+        "sentence": "朝ごはんを食べてから学校へ行きます。",
+        "reading": "あさごはんをたべてからがっこうへいきます。",
+        "translation": "I eat breakfast and then go to school.",
+        "examples": [
+            { "id": 1, "example": "朝 (あさ) — morning" },
+            { "id": 2, "example": "朝ご飯 (あさごはん) — breakfast" },
+            { "id": 3, "example": "朝日 (あさひ) — morning sun" }
+        ]
+    },
+    {
+        "id": 34,
+        "kanji": "昼",
+        "meaning": "noon, daytime",
+        "on": "チュウ",
+        "kun": "ひる",
+        "sentence": "昼休みに友達と話します。",
+        "reading": "ひるやすみにともだちとはなします。",
+        "translation": "I talk with friends during lunch break.",
+        "examples": [
+            { "id": 1, "example": "昼 (ひる) — noon, daytime" },
+            { "id": 2, "example": "昼ご飯 (ひるごはん) — lunch" },
+            { "id": 3, "example": "昼間 (ひるま) — daytime" }
+        ]
+    },
+    {
+        "id": 35,
+        "kanji": "夜",
+        "meaning": "night, evening",
+        "on": "ヤ",
+        "kun": "よる",
+        "sentence": "夜は勉強する時間です。",
+        "reading": "よるはべんきょうするじかんです。",
+        "translation": "Night is time for studying.",
+        "examples": [
+            { "id": 1, "example": "夜 (よる) — night" },
+            { "id": 2, "example": "今夜 (こんや) — tonight" },
+            { "id": 3, "example": "夜中 (よなか) — middle of the night" }
+        ]
+    },
+    {
+        "id": 36,
+        "kanji": "止",
+        "meaning": "stop",
+        "on": "シ",
+        "kun": "と.まる、と.める",
+        "sentence": "このバスは次の駅で止まります。",
+        "reading": "このばすはつぎのえきでとまります。",
+        "translation": "This bus stops at the next station.",
+        "examples": [
+            { "id": 1, "example": "止まる (とまる) — to stop (intransitive)" },
+            { "id": 2, "example": "止める (とめる) — to stop (transitive)" },
+            { "id": 3, "example": "中止 (ちゅうし) — cancellation" }
+        ]
+    },
+    {
+        "id": 37,
+        "kanji": "歩",
+        "meaning": "walk",
+        "on": "ホ",
+        "kun": "ある.く",
+        "sentence": "毎日駅まで歩きます。",
+        "reading": "まいにちえきまであるきます。",
+        "translation": "I walk to the station every day.",
+        "examples": [
+            { "id": 1, "example": "歩く (あるく) — to walk" },
+            { "id": 2, "example": "散歩 (さんぽ) — walk, stroll" },
+            { "id": 3, "example": "歩道 (ほどう) — sidewalk" }
+        ]
+    },
+    {
+        "id": 38,
+        "kanji": "信",
+        "meaning": "trust, believe",
+        "on": "シン",
+        "kun": "",
+        "sentence": "友達を信じています。",
+        "reading": "ともだちをしんじています。",
+        "translation": "I trust my friend.",
+        "examples": [
+            { "id": 1, "example": "信じる (しんじる) — to believe" },
+            { "id": 2, "example": "信用 (しんよう) — trust, credit" },
+            { "id": 3, "example": "自信 (じしん) — self-confidence" }
+        ]
+    },
+    {
+        "id": 39,
+        "kanji": "町",
+        "meaning": "town",
+        "on": "チョウ",
+        "kun": "まち",
+        "sentence": "この町は静かで好きです。",
+        "reading": "このまちはしずかですきです。",
+        "translation": "I like this town because it's quiet.",
+        "examples": [
+            { "id": 1, "example": "町 (まち) — town" },
+            { "id": 2, "example": "市町村 (しちょうそん) — cities, towns, villages" },
+            { "id": 3, "example": "町中 (まちなか) — town center" }
+        ]
+    },
+    {
+        "id": 40,
+        "kanji": "県",
+        "meaning": "prefecture",
+        "on": "ケン",
+        "kun": "",
+        "sentence": "私は大阪県から来ました。",
+        "reading": "わたしはおおさかけんからきました。",
+        "translation": "I came from Osaka Prefecture.",
+        "examples": [
+            { "id": 1, "example": "県 (けん) — prefecture" },
+            { "id": 2, "example": "県立 (けんりつ) — prefectural" },
+            { "id": 3, "example": "県庁 (けんちょう) — prefectural office" }
+        ]
+    },
+    {
+        "id": 41,
+        "kanji": "軽",
+        "meaning": "light (weight)",
+        "on": "ケイ",
+        "kun": "かる.い",
+        "sentence": "このかばんは軽いです。",
+        "reading": "このかばんはかるいです。",
+        "translation": "This bag is light.",
+        "examples": [
+            { "id": 1, "example": "軽い (かるい) — light (weight)" },
+            { "id": 2, "example": "軽食 (けいしょく) — light meal" },
+            { "id": 3, "example": "軽く (かるく) — lightly" }
+        ]
+    },
+    {
+        "id": 42,
+        "kanji": "不",
+        "meaning": "not, un-, in- (negative prefix)",
+        "on": "フ",
+        "kun": "",
+        "sentence": "この問題は不可能ではありません。",
+        "reading": "このもんだいはふかのうではありません。",
+        "translation": "This problem is not impossible.",
+        "examples": [
+            { "id": 1, "example": "不可能 (ふかのう) — impossible" },
+            { "id": 2, "example": "不便 (ふべん) — inconvenient" },
+            { "id": 3, "example": "不安 (ふあん) — anxiety" }
+        ]
+    },
+    {
+        "id": 43,
+        "kanji": "正",
+        "meaning": "correct, right",
+        "on": "セイ、ショウ",
+        "kun": "ただ.しい",
+        "sentence": "この答えは正しいですか。",
+        "reading": "このこたえはただしいですか。",
+        "translation": "Is this answer correct?",
+        "examples": [
+            { "id": 1, "example": "正しい (ただしい) — correct" },
+            { "id": 2, "example": "正月 (しょうがつ) — New Year" },
+            { "id": 3, "example": "正式 (せいしき) — formal, official" }
+        ]
+    },
+    {
+        "id": 44,
+        "kanji": "低",
+        "meaning": "low",
+        "on": "テイ",
+        "kun": "ひく.い",
+        "sentence": "このテーブルは低いです。",
+        "reading": "このてーぶるはひくいです。",
+        "translation": "This table is low.",
+        "examples": [
+            { "id": 1, "example": "低い (ひくい) — low" },
+            { "id": 2, "example": "最低 (さいてい) — lowest, minimum" },
+            { "id": 3, "example": "低温 (ていおん) — low temperature" }
+        ]
+    },
+    {
+        "id": 45,
+        "kanji": "歌",
+        "meaning": "song, sing",
+        "on": "カ",
+        "kun": "うた",
+        "sentence": "日本の歌が好きです。",
+        "reading": "にほんのうたがすきです。",
+        "translation": "I like Japanese songs.",
+        "examples": [
+            { "id": 1, "example": "歌 (うた) — song" },
+            { "id": 2, "example": "歌う (うたう) — to sing" },
+            { "id": 3, "example": "歌手 (かしゅ) — singer" }
+        ]
+    },
+    {
+        "id": 46,
+        "kanji": "春",
+        "meaning": "spring",
+        "on": "シュン",
+        "kun": "はる",
+        "sentence": "春は桜がきれいです。",
+        "reading": "はるはさくらがきれいです。",
+        "translation": "Spring is beautiful with cherry blossoms.",
+        "examples": [
+            { "id": 1, "example": "春 (はる) — spring" },
+            { "id": 2, "example": "春休み (はるやすみ) — spring vacation" },
+            { "id": 3, "example": "青春 (せいしゅん) — youth" }
+        ]
+    },
+    {
+        "id": 47,
+        "kanji": "細",
+        "meaning": "thin, slender",
+        "on": "サイ",
+        "kun": "ほそ.い",
+        "sentence": "細い道を通ります。",
+        "reading": "ほそいみちをとおります。",
+        "translation": "I go through a narrow road.",
+        "examples": [
+            { "id": 1, "example": "細い (ほそい) — thin, slender" },
+            { "id": 2, "example": "細かい (こまかい) — small, fine" },
+            { "id": 3, "example": "詳細 (しょうさい) — details" }
+        ]
+    },
+    {
+        "id": 48,
+        "kanji": "有",
+        "meaning": "have, exist",
+        "on": "ユウ",
+        "kun": "あ.る",
+        "sentence": "ここにペンがあります。",
+        "reading": "ここにぺんがあります。",
+        "translation": "There is a pen here.",
+        "examples": [
+            { "id": 1, "example": "有名 (ゆうめい) — famous" },
+            { "id": 2, "example": "有る (ある) — to exist, to have" },
+            { "id": 3, "example": "有用 (ゆうよう) — useful" }
+        ]
+    },
+    {
+        "id": 49,
+        "kanji": "光",
+        "meaning": "light",
+        "on": "コウ",
+        "kun": "ひかり",
+        "sentence": "太陽の光が強いです。",
+        "reading": "たいようのひかりがつよいです。",
+        "translation": "The sunlight is strong.",
+        "examples": [
+            { "id": 1, "example": "光 (ひかり) — light" },
+            { "id": 2, "example": "日光 (にっこう) — sunlight" },
+            { "id": 3, "example": "光る (ひかる) — to shine" }
+        ]
+    },
+    {
+        "id": 50,
+        "kanji": "冬",
+        "meaning": "winter",
+        "on": "トウ",
+        "kun": "ふゆ",
+        "sentence": "冬は雪が降ります。",
+        "reading": "ふゆはゆきがふります。",
+        "translation": "It snows in winter.",
+        "examples": [
+            { "id": 1, "example": "冬 (ふゆ) — winter" },
+            { "id": 2, "example": "冬休み (ふゆやすみ) — winter vacation" },
+            { "id": 3, "example": "冬物 (ふゆもの) — winter clothes" }
+        ]
+    },
+    {
+        "id": 51,
+        "kanji": "寒",
+        "meaning": "cold",
+        "on": "カン",
+        "kun": "さむ.い",
+        "sentence": "今日はとても寒いです。",
+        "reading": "きょうはとてもさむいです。",
+        "translation": "Today is very cold.",
+        "examples": [
+            { "id": 1, "example": "寒い (さむい) — cold (weather)" },
+            { "id": 2, "example": "寒さ (さむさ) — coldness" },
+            { "id": 3, "example": "寒気 (かんき) — chill" }
+        ]
+    },
+    {
+        "id": 52,
+        "kanji": "終",
+        "meaning": "end, finish",
+        "on": "シュウ",
+        "kun": "お.わる",
+        "sentence": "授業が終わりました。",
+        "reading": "じゅぎょうがおわりました。",
+        "translation": "The class has finished.",
+        "examples": [
+            { "id": 1, "example": "終わる (おわる) — to end" },
+            { "id": 2, "example": "終了 (しゅうりょう) — end, completion" },
+            { "id": 3, "example": "最終 (さいしゅう) — final" }
+        ]
+    },
+    {
+        "id": 53,
+        "kanji": "涼",
+        "meaning": "cool, refreshing",
+        "on": "リョウ",
+        "kun": "すず.しい",
+        "sentence": "秋の夜は涼しいです。",
+        "reading": "あきのよるはすずしいです。",
+        "translation": "Autumn nights are cool.",
+        "examples": [
+            { "id": 1, "example": "涼しい (すずしい) — cool, refreshing" },
+            { "id": 2, "example": "涼む (すずむ) — to cool oneself" },
+            { "id": 3, "example": "涼風 (りょうふう) — cool breeze" }
+        ]
+    },
+    {
+        "id": 54,
+        "kanji": "京",
+        "meaning": "capital",
+        "on": "キョウ",
+        "kun": "",
+        "sentence": "京都は古い都です。",
+        "reading": "きょうとはふるいみやこです。",
+        "translation": "Kyoto is an old capital.",
+        "examples": [
+            { "id": 1, "example": "京都 (きょうと) — Kyoto" },
+            { "id": 2, "example": "東京 (とうきょう) — Tokyo" },
+            { "id": 3, "example": "京阪 (けいはん) — Kyoto-Osaka area" }
+        ]
+    },
+    {
+        "id": 55,
+        "kanji": "兄",
+        "meaning": "older brother",
+        "on": "ケイ",
+        "kun": "あに",
+        "sentence": "兄は大学生です。",
+        "reading": "あにわだいがくせいです。",
+        "translation": "My older brother is a university student.",
+        "examples": [
+            { "id": 1, "example": "兄 (あに) — older brother" },
+            { "id": 2, "example": "兄弟 (きょうだい) — siblings" },
+            { "id": 3, "example": "父兄 (ふけい) — parents and older brothers" }
+        ]
+    },
+    {
+        "id": 56,
+        "kanji": "妹",
+        "meaning": "younger sister",
+        "on": "マイ",
+        "kun": "いもうと",
+        "sentence": "妹は高校生です。",
+        "reading": "いもうとはこうこうせいです。",
+        "translation": "My younger sister is a high school student.",
+        "examples": [
+            { "id": 1, "example": "妹 (いもうと) — younger sister" },
+            { "id": 2, "example": "姉妹 (しまい) — sisters" },
+            { "id": 3, "example": "弟妹 (ていまい) — younger brothers and sisters" }
+        ]
     }
 ];
 
