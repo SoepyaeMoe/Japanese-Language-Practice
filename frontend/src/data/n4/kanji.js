@@ -838,6 +838,81 @@ const n4KanjiDataList = [
             { "id": 2, "example": "姉妹 (しまい) — sisters" },
             { "id": 3, "example": "弟妹 (ていまい) — younger brothers and sisters" }
         ]
+    },
+    {
+        "id": 57,
+        "kanji": "病",
+        "meaning": "sick, illness",
+        "on": "ビョウ",
+        "kun": "やまい",
+        "sentence": "昨日は病気で学校を休みました。",
+        "reading": "きのうはびょうきでがっこうをやすみました。",
+        "translation": "Yesterday I was absent from school due to illness.",
+        "examples": [
+            { "id": 1, "example": "病気 (びょうき) — illness, sickness" },
+            { "id": 2, "example": "病院 (びょういん) — hospital" },
+            { "id": 3, "example": "病気 (やまい) — disease (kun reading)" }
+        ]
+    },
+    {
+        "id": 58,
+        "kanji": "元",
+        "meaning": "origin, former",
+        "on": "ゲン",
+        "kun": "もと",
+        "sentence": "元気ですか。",
+        "reading": "げんきですか。",
+        "translation": "How are you? (Are you well?)",
+        "examples": [
+            { "id": 1, "example": "元気 (げんき) — healthy, energetic" },
+            { "id": 2, "example": "元々 (もともと) — originally" },
+            { "id": 3, "example": "元日 (がんじつ) — New Year's Day" }
+        ]
+    },
+    {
+        "id": 59,
+        "kanji": "院",
+        "meaning": "institution",
+        "on": "イン",
+        "kun": "",
+        "sentence": "病院へ行かなければなりません。",
+        "reading": "びょういんへいかなければなりません。",
+        "translation": "I have to go to the hospital.",
+        "examples": [
+            { "id": 1, "example": "病院 (びょういん) — hospital" },
+            { "id": 2, "example": "大学院 (だいがくいん) — graduate school" },
+            { "id": 3, "example": "美容院 (びよういん) — beauty salon" }
+        ]
+    },
+    {
+        "id": 60,
+        "kanji": "青",
+        "meaning": "blue, green",
+        "on": "セイ",
+        "kun": "あお",
+        "sentence": "青い空が好きです。",
+        "reading": "あおいそらがすきです。",
+        "translation": "I like blue skies.",
+        "examples": [
+            { "id": 1, "example": "青い (あおい) — blue, green (traffic lights)" },
+            { "id": 2, "example": "青春 (せいしゅん) — youth" },
+            { "id": 3, "example": "青空 (あおぞら) — blue sky" }
+        ]
+    },
+    {
+        "id": 61,
+        "kanji": "赤",
+        "meaning": "red",
+        "on": "セキ",
+        "kun": "あか",
+        "sentence": "赤いりんごを買いました。",
+        "reading": "あかいりんごをかいました。",
+        "translation": "I bought red apples.",
+        "examples": [
+            { "id": 1, "example": "赤い (あかい) — red" },
+            { "id": 2, "example": "赤ちゃん (あかちゃん) — baby" },
+            { "id": 3, "example": "赤道 (せきどう) — equator" }
+        ]
     }
 ];
 
