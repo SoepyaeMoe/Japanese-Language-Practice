@@ -14,11 +14,7 @@ function shuffle(arr) {
 function getMeaning(item) {
     if (!item) return ''
     return (
-        item.meaning ||
-        item.examples?.[0].example ||
-        item.kun ||
-        item.on ||
-        ''
+        <p>{item.meaning + " (" + item.kun + ")" || +" (" + item.on + ")"}</p>
     )
 }
 
