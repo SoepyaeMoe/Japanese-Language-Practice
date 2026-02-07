@@ -1,19 +1,17 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import path from 'path';
-import { fileURLToPath } from 'url';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const __dirname = path.resolve();
 
 dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 8000;
 
 if (process.env.NODE_ENV === 'production') {
-    app.use(express.static(path.join(__dirname, 'frontend', 'dist')));
+    app.use(express.static(path.join(__dirname, '/frontend/dist')));
 
-    app.get('/.*/', (_req, res) => {
+    app.get('/', (req, res) => {
         res.sendFile(path.resolve(__dirname, 'frontend', 'dist', 'index.html'));
     });
 }
