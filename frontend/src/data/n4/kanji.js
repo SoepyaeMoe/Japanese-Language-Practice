@@ -913,7 +913,234 @@ const n4KanjiDataList = [
             { "id": 2, "example": "赤ちゃん (あかちゃん) — baby" },
             { "id": 3, "example": "赤道 (せきどう) — equator" }
         ]
+    },
+    {
+        "id": 62,
+        "kanji": "秋",
+        "meaning": "autumn",
+        "on": "シュウ",
+        "kun": "あき",
+        "sentence": "秋は食べ物が美味しいです。",
+        "reading": "あきはたべものがおいしいです。",
+        "translation": "Food is delicious in autumn.",
+        "examples": [
+            { "id": 1, "example": "秋 (あき) — autumn" },
+            { "id": 2, "example": "秋休み (あきやすみ) — autumn vacation" },
+            { "id": 3, "example": "春秋 (しゅんじゅう) — spring and autumn" }
+        ]
+    },
+    {
+        "id": 63,
+        "kanji": "暖",
+        "meaning": "warm",
+        "on": "ダン",
+        "kun": "あたた.かい",
+        "sentence": "今日は暖かいですね。",
+        "reading": "きょうはあたたかいですね。",
+        "translation": "It's warm today, isn't it.",
+        "examples": [
+            { "id": 1, "example": "暖かい (あたたかい) — warm" },
+            { "id": 2, "example": "暖房 (だんぼう) — heating" },
+            { "id": 3, "example": "暖める (あたためる) — to warm up" }
+        ]
+    },
+    {
+        "id": 64,
+        "kanji": "心",
+        "meaning": "heart, mind",
+        "on": "シン",
+        "kun": "こころ",
+        "sentence": "心から感謝しています。",
+        "reading": "こころからかんしゃしています。",
+        "translation": "I am grateful from the bottom of my heart.",
+        "examples": [
+            { "id": 1, "example": "心 (こころ) — heart, mind" },
+            { "id": 2, "example": "安心 (あんしん) — relief" },
+            { "id": 3, "example": "心配 (しんぱい) — worry, concern" }
+        ]
+    },
+    {
+        "id": 65,
+        "kanji": "悪",
+        "meaning": "bad, evil",
+        "on": "アク",
+        "kun": "わる.い",
+        "sentence": "昨日は天気が悪かったです。",
+        "reading": "きのうはてんきがわるかったです。",
+        "translation": "The weather was bad yesterday.",
+        "examples": [
+            { "id": 1, "example": "悪い (わるい) — bad" },
+            { "id": 2, "example": "悪者 (わるもの) — villain" },
+            { "id": 3, "example": "悪魔 (あくま) — devil" }
+        ]
+    },
+    {
+        "id": 66,
+        "kanji": "急",
+        "meaning": "hurry, urgent",
+        "on": "キュウ",
+        "kun": "いそ.ぐ",
+        "sentence": "急いで駅に行きました。",
+        "reading": "いそいでえきにいきました。",
+        "translation": "I hurried to the station.",
+        "examples": [
+            { "id": 1, "example": "急ぐ (いそぐ) — to hurry" },
+            { "id": 2, "example": "急に (きゅうに) — suddenly" },
+            { "id": 3, "example": "緊急 (きんきゅう) — emergency" }
+        ]
+    },
+    {
+        "id": 67,
+        "kanji": "強",
+        "meaning": "strong",
+        "on": "キョウ",
+        "kun": "つよ.い",
+        "sentence": "父はとても強いです。",
+        "reading": "ちちはとてもつよいです。",
+        "translation": "My father is very strong.",
+        "examples": [
+            { "id": 1, "example": "強い (つよい) — strong" },
+            { "id": 2, "example": "勉強 (べんきょう) — study" },
+            { "id": 3, "example": "強力 (きょうりょく) — powerful" }
+        ]
+    },
+    {
+        "id": 68,
+        "kanji": "弱",
+        "meaning": "weak",
+        "on": "ジャク",
+        "kun": "よわ.い",
+        "sentence": "私は甘いものに弱いです。",
+        "reading": "わたしはあまいものによわいです。",
+        "translation": "I have a weakness for sweets.",
+        "examples": [
+            { "id": 1, "example": "弱い (よわい) — weak" },
+            { "id": 2, "example": "弱点 (じゃくてん) — weak point" },
+            { "id": 3, "example": "弱気 (よわき) — timid" }
+        ]
+    },
+    {
+        "id": 69,
+        "kanji": "声",
+        "meaning": "voice",
+        "on": "セイ",
+        "kun": "こえ",
+        "sentence": "友達の声が聞こえました。",
+        "reading": "ともだちのこえがきこえました。",
+        "translation": "I heard my friend's voice.",
+        "examples": [
+            { "id": 1, "example": "声 (こえ) — voice" },
+            { "id": 2, "example": "大声 (おおごえ) — loud voice" },
+            { "id": 3, "example": "歌声 (うたごえ) — singing voice" }
+        ]
+    },
+    {
+        "id": 70,
+        "kanji": "借",
+        "meaning": "borrow",
+        "on": "シャク",
+        "kun": "か.りる",
+        "sentence": "友達から本を借りました。",
+        "reading": "ともだちからほんをかりました。",
+        "translation": "I borrowed a book from a friend.",
+        "examples": [
+            { "id": 1, "example": "借りる (かりる) — to borrow" },
+            { "id": 2, "example": "借金 (しゃっきん) — debt" },
+            { "id": 3, "example": "賃借 (ちんしゃく) — rental" }
+        ]
+    },
+    {
+        "id": 71,
+        "kanji": "貸",
+        "meaning": "lend",
+        "on": "タイ",
+        "kun": "か.す",
+        "sentence": "友達にお金を貸しました。",
+        "reading": "ともだちにおかねをかしました。",
+        "translation": "I lent money to a friend.",
+        "examples": [
+            { "id": 1, "example": "貸す (かす) — to lend" },
+            { "id": 2, "example": "貸し出し (かしだし) — lending" },
+            { "id": 3, "example": "貸し切り (かしきり) — reservation" }
+        ]
+    },
+    {
+        "id": 72,
+        "kanji": "弟",
+        "meaning": "younger brother",
+        "on": "テイ",
+        "kun": "おとうと",
+        "sentence": "弟はサッカーが好きです。",
+        "reading": "おとうとはさっかーがすきです。",
+        "translation": "My younger brother likes soccer.",
+        "examples": [
+            { "id": 1, "example": "弟 (おとうと) — younger brother" },
+            { "id": 2, "example": "兄弟 (きょうだい) — siblings" },
+            { "id": 3, "example": "弟子 (でし) — disciple" }
+        ]
+    },
+    {
+        "id": 73,
+        "kanji": "味",
+        "meaning": "taste, flavor",
+        "on": "ミ",
+        "kun": "あじ",
+        "sentence": "この料理は味がいいです。",
+        "reading": "このりょうりはあじがいいです。",
+        "translation": "This dish tastes good.",
+        "examples": [
+            { "id": 1, "example": "味 (あじ) — taste, flavor" },
+            { "id": 2, "example": "味方 (みかた) — ally" },
+            { "id": 3, "example": "意味 (いみ) — meaning" }
+        ]
+    },
+    {
+        "id": 74,
+        "kanji": "飯",
+        "meaning": "meal, cooked rice",
+        "on": "ハン",
+        "kun": "めし",
+        "sentence": "毎日ご飯を食べます。",
+        "reading": "まいにちごはんをたべます。",
+        "translation": "I eat rice every day.",
+        "examples": [
+            { "id": 1, "example": "ご飯 (ごはん) — meal, cooked rice" },
+            { "id": 2, "example": "朝ご飯 (あさごはん) — breakfast" },
+            { "id": 3, "example": "晩ご飯 (ばんごはん) — dinner" }
+        ]
+    },
+    {
+        "id": 75,
+        "kanji": "返",
+        "meaning": "return, reply",
+        "on": "ヘン",
+        "kun": "かえ.す",
+        "sentence": "本を図書館に返します。",
+        "reading": "ほんをとしょかんにかえします。",
+        "translation": "I will return the book to the library.",
+        "examples": [
+            { "id": 1, "example": "返す (かえす) — to return something" },
+            { "id": 2, "example": "返事 (へんじ) — reply" },
+            { "id": 3, "example": "返信 (へんしん) — reply message" }
+        ]
+    },
+    {
+        "id": 76,
+        "kanji": "図",
+        "meaning": "drawing, diagram, map",
+        "on": "ズ",
+        "kun": "はか.る",
+        "sentence": "図書館で本を読みます。",
+        "reading": "としょかんでほんをよみます。",
+        "translation": "I read books at the library.",
+        "examples": [
+            { "id": 1, "example": "図書館 (としょかん) — library" },
+            { "id": 2, "example": "地図 (ちず) — map" },
+            { "id": 3, "example": "図表 (ずひょう) — chart, diagram" }
+        ]
     }
+
+
 ];
 
 export default n4KanjiDataList;
