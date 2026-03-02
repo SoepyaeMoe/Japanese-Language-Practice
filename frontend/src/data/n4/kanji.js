@@ -1138,9 +1138,157 @@ const n4KanjiDataList = [
             { "id": 2, "example": "地図 (ちず) — map" },
             { "id": 3, "example": "図表 (ずひょう) — chart, diagram" }
         ]
+    },
+    {
+        "id": 77,
+        "kanji": "米",
+        "meaning": "rice, America",
+        "on": "ベイ、マイ",
+        "kun": "こめ",
+        "sentence": "日本では毎日ご飯を食べます。",
+        "reading": "にほんではまいにちごはんをたべます。",
+        "translation": "In Japan, I eat rice every day.",
+        "examples": [
+            { "id": 1, "example": "米 (こめ) — rice (uncooked)" },
+            { "id": 2, "example": "アメリカ — America (using 米 as abbreviation)" },
+            { "id": 3, "example": "米国 (べいこく) — United States" }
+        ]
+    },
+    {
+        "id": 78,
+        "kanji": "教",
+        "meaning": "teach",
+        "on": "キョウ",
+        "kun": "おし.える",
+        "sentence": "先生が日本語を教えてくれます。",
+        "reading": "せんせいがにほんごをおしえてくれます。",
+        "translation": "The teacher teaches me Japanese.",
+        "examples": [
+            { "id": 1, "example": "教える (おしえる) — to teach" },
+            { "id": 2, "example": "教室 (きょうしつ) — classroom" },
+            { "id": 3, "example": "教師 (きょうし) — teacher" }
+        ]
+    },
+    {
+        "id": 79,
+        "kanji": "勉",
+        "meaning": "effort, study",
+        "on": "ベン",
+        "kun": "",
+        "sentence": "毎日日本語を勉強しています。",
+        "reading": "まいにちにほんごをべんきょうしています。",
+        "translation": "I study Japanese every day.",
+        "examples": [
+            { "id": 1, "example": "勉強 (べんきょう) — study" },
+            { "id": 2, "example": "勉学 (べんがく) — studies, learning" },
+            { "id": 3, "example": "勤勉 (きんべん) — diligent" }
+        ]
+    },
+    {
+        "id": 80,
+        "kanji": "考",
+        "meaning": "think, consider",
+        "on": "コウ",
+        "kun": "かんが.える",
+        "sentence": "よく考えてから答えてください。",
+        "reading": "よくかんがえてからこたえてください。",
+        "translation": "Please think carefully before answering.",
+        "examples": [
+            { "id": 1, "example": "考える (かんがえる) — to think" },
+            { "id": 2, "example": "考え (かんがえ) — idea, thought" },
+            { "id": 3, "example": "参考 (さんこう) — reference" }
+        ]
+    },
+    {
+        "id": 81,
+        "kanji": "引",
+        "meaning": "pull",
+        "on": "イン",
+        "kun": "ひ.く",
+        "sentence": "ドアを引いて開けてください。",
+        "reading": "どあをひいてあけてください。",
+        "translation": "Please pull the door to open it.",
+        "examples": [
+            { "id": 1, "example": "引く (ひく) — to pull" },
+            { "id": 2, "example": "理由 (りゆう) — reason (using 由)" },
+            { "id": 3, "example": "引越し (ひっこし) — moving" }
+        ]
+    },
+    {
+        "id": 82,
+        "kanji": "思",
+        "meaning": "think",
+        "on": "シ",
+        "kun": "おも.う",
+        "sentence": "私はそう思いません。",
+        "reading": "わたしはそうおもいません。",
+        "translation": "I don't think so.",
+        "examples": [
+            { "id": 1, "example": "思う (おもう) — to think" },
+            { "id": 2, "example": "思い出 (おもいで) — memories" },
+            { "id": 3, "example": "思想 (しそう) — thought, ideology" }
+        ]
+    },
+    {
+        "id": 83,
+        "kanji": "死",
+        "meaning": "death",
+        "on": "シ",
+        "kun": "し.ぬ",
+        "sentence": "そのニュースを聞いて、とても悲しい気持ちで死にそうです。",
+        "reading": "そのにゅーすをきいて、とてもかなしいきもちでしにそうです。",
+        "translation": "After hearing that news, I felt so sad I could die.",
+        "examples": [
+            { "id": 1, "example": "死ぬ (しぬ) — to die" },
+            { "id": 2, "example": "死亡 (しぼう) — death" },
+            { "id": 3, "example": "死刑 (しけい) — death penalty" }
+        ]
+    },
+    {
+        "id": 84,
+        "kanji": "説",
+        "meaning": "explain, theory",
+        "on": "セツ",
+        "kun": "と.く",
+        "sentence": "先生が文法を説明しました。",
+        "reading": "せんせいがぶんぽうをせつめいしました。",
+        "translation": "The teacher explained the grammar.",
+        "examples": [
+            { "id": 1, "example": "説明 (せつめい) — explanation" },
+            { "id": 2, "example": "小説 (しょうせつ) — novel" },
+            { "id": 3, "example": "説く (とく) — to explain" }
+        ]
+    },
+    {
+        "id": 85,
+        "kanji": "帰",
+        "meaning": "return home",
+        "on": "キ",
+        "kun": "かえ.る",
+        "sentence": "毎晩七時に家に帰ります。",
+        "reading": "まいばんしちじにいえにかえります。",
+        "translation": "I return home at seven every evening.",
+        "examples": [
+            { "id": 1, "example": "帰る (かえる) — to return home" },
+            { "id": 2, "example": "帰国 (きこく) — returning to one's country" },
+            { "id": 3, "example": "帰宅 (きたく) — returning home" }
+        ]
+    },
+    {
+        "id": 86,
+        "kanji": "薬",
+        "meaning": "medicine",
+        "on": "ヤク",
+        "kun": "くすり",
+        "sentence": "風邪を引いたので、薬を飲みました。",
+        "reading": "かぜをひいたので、くすりをのみました。",
+        "translation": "I caught a cold, so I took medicine.",
+        "examples": [
+            { "id": 1, "example": "薬 (くすり) — medicine" },
+            { "id": 2, "example": "薬局 (やっきょく) — pharmacy" },
+            { "id": 3, "example": "薬品 (やくひん) — medicine, chemicals" }
+        ]
     }
-
-
 ];
 
 export default n4KanjiDataList;
