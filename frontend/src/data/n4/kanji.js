@@ -1288,6 +1288,156 @@ const n4KanjiDataList = [
             { "id": 2, "example": "薬局 (やっきょく) — pharmacy" },
             { "id": 3, "example": "薬品 (やくひん) — medicine, chemicals" }
         ]
+    },
+    {
+        "id": 87,
+        "kanji": "切",
+        "meaning": "cut",
+        "on": "セツ",
+        "kun": "き.る",
+        "sentence": "このパンを半分に切ってください。",
+        "reading": "このぱんをはんぶんにきってください。",
+        "translation": "Please cut this bread in half.",
+        "examples": [
+            { "id": 1, "example": "切る (きる) — to cut" },
+            { "id": 2, "example": "大切 (たいせつ) — important" },
+            { "id": 3, "example": "切手 (きって) — postage stamp" }
+        ]
+    },
+    {
+        "id": 88,
+        "kanji": "晩",
+        "meaning": "evening, night",
+        "on": "バン",
+        "kun": "",
+        "sentence": "毎晩テレビを見ます。",
+        "reading": "まいばんてれびをみます。",
+        "translation": "I watch TV every evening.",
+        "examples": [
+            { "id": 1, "example": "晩ご飯 (ばんごはん) — dinner" },
+            { "id": 2, "example": "今晩 (こんばん) — tonight" },
+            { "id": 3, "example": "毎晩 (まいばん) — every night" }
+        ]
+    },
+    {
+        "id": 89,
+        "kanji": "民",
+        "meaning": "people, nation",
+        "on": "ミン",
+        "kun": "たみ",
+        "sentence": "国民の健康が大切です。",
+        "reading": "こくみんのけんこうがたいせつです。",
+        "translation": "The health of the people is important.",
+        "examples": [
+            { "id": 1, "example": "国民 (こくみん) — nation, people" },
+            { "id": 2, "example": "市民 (しみん) — citizen" },
+            { "id": 3, "example": "民族 (みんぞく) — ethnic group" }
+        ]
+    },
+    {
+        "id": 90,
+        "kanji": "服",
+        "meaning": "clothes",
+        "on": "フク",
+        "kun": "",
+        "sentence": "新しい服を買いました。",
+        "reading": "あたらしいふくをかいました。",
+        "translation": "I bought new clothes.",
+        "examples": [
+            { "id": 1, "example": "洋服 (ようふく) — Western-style clothes" },
+            { "id": 2, "example": "和服 (わふく) — Japanese clothes" },
+            { "id": 3, "example": "制服 (せいふく) — uniform" }
+        ]
+    },
+    {
+        "id": 91,
+        "kanji": "茶",
+        "meaning": "tea",
+        "on": "チャ",
+        "kun": "",
+        "sentence": "友達とお茶を飲みました。",
+        "reading": "ともだちとおちゃをのみました。",
+        "translation": "I drank tea with my friend.",
+        "examples": [
+            { "id": 1, "example": "お茶 (おちゃ) — tea" },
+            { "id": 2, "example": "茶色 (ちゃいろ) — brown" },
+            { "id": 3, "example": "喫茶店 (きっさてん) — coffee shop" }
+        ]
+    },
+    {
+        "id": 92,
+        "kanji": "号",
+        "meaning": "number, issue",
+        "on": "ゴウ",
+        "kun": "",
+        "sentence": "この雑誌の最新号を買いました。",
+        "reading": "このざっしのさいしんごうをかいました。",
+        "translation": "I bought the latest issue of this magazine.",
+        "examples": [
+            { "id": 1, "example": "番号 (ばんごう) — number" },
+            { "id": 2, "example": "記号 (きごう) — symbol" },
+            { "id": 3, "example": "一号 (いちごう) — number one, first issue" }
+        ]
+    },
+    {
+        "id": 93,
+        "kanji": "降",
+        "meaning": "descend, precipitate",
+        "on": "コウ",
+        "kun": "お.りる",
+        "sentence": "雨が降っています。",
+        "reading": "あめがふっています。",
+        "translation": "It is raining.",
+        "examples": [
+            { "id": 1, "example": "降る (ふる) — to fall (rain, snow)" },
+            { "id": 2, "example": "降りる (おりる) — to get off" },
+            { "id": 3, "example": "温度が下がる (おんどがさがる) — temperature drops" }
+        ]
+    },
+    {
+        "id": 94,
+        "kanji": "習",
+        "meaning": "learn",
+        "on": "シュウ",
+        "kun": "なら.う",
+        "sentence": "子供の頃、ピアノを習っていました。",
+        "reading": "こどものころ、ぴあのをならっていました。",
+        "translation": "I was learning piano when I was a child.",
+        "examples": [
+            { "id": 1, "example": "習う (ならう) — to learn" },
+            { "id": 2, "example": "練習 (れんしゅう) — practice" },
+            { "id": 3, "example": "学習 (がくしゅう) — learning" }
+        ]
+    },
+    {
+        "id": 95,
+        "kanji": "用",
+        "meaning": "use, task",
+        "on": "ヨウ",
+        "kun": "もち.いる",
+        "sentence": "この辞書を使います。",
+        "reading": "このじしょをつかいます。",
+        "translation": "I use this dictionary.",
+        "examples": [
+            { "id": 1, "example": "使う (つかう) — to use" },
+            { "id": 2, "example": "用事 (ようじ) — errand, task" },
+            { "id": 3, "example": "用意 (ようい) — preparation" }
+        ]
+    },
+    {
+        "id": 96,
+        "kanji": "閉",
+        "meaning": "close, shut",
+        "on": "ヘイ",
+        "kun": "と.じる",
+        "sentence": "ドアを閉めてください。",
+        "reading": "どあをしめてください。",
+        "translation": "Please close the door.",
+        "examples": [
+            { "id": 1, "example": "閉める (しめる) — to close" },
+            { "id": 2, "example": "閉じる (とじる) — to shut" },
+            { "id": 3, "example": "閉店 (へいてん) — closing of shop" }
+        ]
     }
 ];
 
