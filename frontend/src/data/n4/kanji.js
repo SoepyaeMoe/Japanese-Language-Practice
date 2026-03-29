@@ -2038,6 +2038,81 @@ const n4KanjiDataList = [
             { "id": 2, "example": "遠く (とおく) — far away" },
             { "id": 3, "example": "遠足 (えんそく) — field trip" }
         ]
+    },
+    {
+        "id": 137,
+        "kanji": "持",
+        "meaning": "hold, have",
+        "on": "ジ",
+        "kun": "も.つ",
+        "sentence": "このかばんを持っています。",
+        "reading": "このかばんをもっています。",
+        "translation": "I have this bag.",
+        "examples": [
+            { "id": 1, "example": "持つ (もつ) — to hold, to have" },
+            { "id": 2, "example": "持ち物 (もちもの) — belongings" },
+            { "id": 3, "example": "維持 (いじ) — maintenance" }
+        ]
+    },
+    {
+        "id": 138,
+        "kanji": "待",
+        "meaning": "wait",
+        "on": "タイ",
+        "kun": "ま.つ",
+        "sentence": "友達を駅で待っています。",
+        "reading": "ともだちをえきでまっています。",
+        "translation": "I'm waiting for my friend at the station.",
+        "examples": [
+            { "id": 1, "example": "待つ (まつ) — to wait" },
+            { "id": 2, "example": "待合室 (まちあいしつ) — waiting room" },
+            { "id": 3, "example": "期待 (きたい) — expectation" }
+        ]
+    },
+    {
+        "id": 139,
+        "kanji": "特",
+        "meaning": "special",
+        "on": "トク",
+        "kun": "",
+        "sentence": "これは特別なケーキです。",
+        "reading": "これはとくべつなけーきです。",
+        "translation": "This is a special cake.",
+        "examples": [
+            { "id": 1, "example": "特別 (とくべつ) — special" },
+            { "id": 2, "example": "特徴 (とくちょう) — characteristic, feature" },
+            { "id": 3, "example": "特急 (とっきゅう) — express train" }
+        ]
+    },
+    {
+        "id": 140,
+        "kanji": "別",
+        "meaning": "separate, different",
+        "on": "ベツ",
+        "kun": "わか.れる",
+        "sentence": "別の方法を考えましょう。",
+        "reading": "べつのほうほうをかんがえましょう。",
+        "translation": "Let's think of a different way.",
+        "examples": [
+            { "id": 1, "example": "別 (べつ) — separate, different" },
+            { "id": 2, "example": "特別 (とくべつ) — special" },
+            { "id": 3, "example": "別れる (わかれる) — to separate, to part" }
+        ]
+    },
+    {
+        "id": 141,
+        "kanji": "化",
+        "meaning": "change, transform",
+        "on": "カ",
+        "kun": "ば.ける",
+        "sentence": "この街は最近大きく変化しました。",
+        "reading": "このまちはさいきんおおきくへんかしました。",
+        "translation": "This town has changed greatly recently.",
+        "examples": [
+            { "id": 1, "example": "変化 (へんか) — change" },
+            { "id": 2, "example": "文化 (ぶんか) — culture" },
+            { "id": 3, "example": "化学 (かがく) — chemistry" }
+        ]
     }
 ];
 
