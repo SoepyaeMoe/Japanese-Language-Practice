@@ -2113,6 +2113,381 @@ const n4KanjiDataList = [
             { "id": 2, "example": "文化 (ぶんか) — culture" },
             { "id": 3, "example": "化学 (かがく) — chemistry" }
         ]
+    },
+    {
+        "id": 142,
+        "kanji": "仕",
+        "meaning": "serve, do",
+        "on": "シ",
+        "kun": "つか.える",
+        "sentence": "会社で仕事をしています。",
+        "reading": "かいしゃでしごとをしています。",
+        "translation": "I work at a company.",
+        "examples": [
+            { "id": 1, "example": "仕事 (しごと) — work, job" },
+            { "id": 2, "example": "仕方 (しかた) — way, method" },
+            { "id": 3, "example": "仕える (つかえる) — to serve" }
+        ]
+    },
+    {
+        "id": 143,
+        "kanji": "事",
+        "meaning": "thing, matter",
+        "on": "ジ",
+        "kun": "こと",
+        "sentence": "大切なことがあります。",
+        "reading": "たいせつなことがあります。",
+        "translation": "There is something important.",
+        "examples": [
+            { "id": 1, "example": "事 (こと) — thing, matter" },
+            { "id": 2, "example": "仕事 (しごと) — work" },
+            { "id": 3, "example": "食事 (しょくじ) — meal" }
+        ]
+    },
+    {
+        "id": 144,
+        "kanji": "堂",
+        "meaning": "hall, temple",
+        "on": "ドウ",
+        "kun": "",
+        "sentence": "この食堂は安くて美味しいです。",
+        "reading": "このしょくどうはやすくておいしいです。",
+        "translation": "This dining hall is cheap and delicious.",
+        "examples": [
+            { "id": 1, "example": "食堂 (しょくどう) — dining hall" },
+            { "id": 2, "example": "講堂 (こうどう) — auditorium" },
+            { "id": 3, "example": "殿堂 (でんどう) — hall of fame" }
+        ]
+    },
+    {
+        "id": 145,
+        "kanji": "度",
+        "meaning": "degree, time, occasion",
+        "on": "ド",
+        "kun": "たび",
+        "sentence": "一度、日本に行きました。",
+        "reading": "いちど、にほんにいきました。",
+        "translation": "I went to Japan once.",
+        "examples": [
+            { "id": 1, "example": "一度 (いちど) — once" },
+            { "id": 2, "example": "毎度 (まいど) — each time" },
+            { "id": 3, "example": "温度 (おんど) — temperature" }
+        ]
+    },
+    {
+        "id": 146,
+        "kanji": "銀",
+        "meaning": "silver",
+        "on": "ギン",
+        "kun": "",
+        "sentence": "銀座で買い物をしました。",
+        "reading": "ぎんざでかいものをしました。",
+        "translation": "I went shopping in Ginza.",
+        "examples": [
+            { "id": 1, "example": "銀色 (ぎんいろ) — silver color" },
+            { "id": 2, "example": "銀行 (ぎんこう) — bank" },
+            { "id": 3, "example": "銀貨 (ぎんか) — silver coin" }
+        ]
+    },
+    {
+        "id": 147,
+        "kanji": "屋",
+        "meaning": "shop, seller, roof",
+        "on": "オク",
+        "kun": "や",
+        "sentence": "あの屋上から見晴らしがいいです。",
+        "reading": "あのおくじょうからみはらしがいいです。",
+        "translation": "The view is good from that rooftop.",
+        "examples": [
+            { "id": 1, "example": "屋上 (おくじょう) — rooftop" },
+            { "id": 2, "example": "本屋 (ほんや) — bookstore" },
+            { "id": 3, "example": "魚屋 (さかなや) — fish shop" }
+        ]
+    },
+    {
+        "id": 148,
+        "kanji": "室",
+        "meaning": "room",
+        "on": "シツ",
+        "kun": "むろ",
+        "sentence": "図書館の静かな部屋で勉強します。",
+        "reading": "としょかんのしずかなへやでべんきょうします。",
+        "translation": "I study in a quiet room in the library.",
+        "examples": [
+            { "id": 1, "example": "部屋 (へや) — room" },
+            { "id": 2, "example": "教室 (きょうしつ) — classroom" },
+            { "id": 3, "example": "会議室 (かいぎしつ) — meeting room" }
+        ]
+    },
+    {
+        "id": 149,
+        "kanji": "回",
+        "meaning": "turn, time (counter)",
+        "on": "カイ",
+        "kun": "まわ.る",
+        "sentence": "何回も練習しました。",
+        "reading": "なんかいもれんしゅうしました。",
+        "translation": "I practiced many times.",
+        "examples": [
+            { "id": 1, "example": "回 (かい) — times (counter)" },
+            { "id": 2, "example": "回る (まわる) — to turn, to go around" },
+            { "id": 3, "example": "今度 (こんど) — this time" }
+        ]
+    },
+    {
+        "id": 150,
+        "kanji": "所",
+        "meaning": "place",
+        "on": "ショ",
+        "kun": "ところ",
+        "sentence": "この辺にいい所があります。",
+        "reading": "このへんにいいところがあります。",
+        "translation": "There's a good place around here.",
+        "examples": [
+            { "id": 1, "example": "所 (ところ) — place" },
+            { "id": 2, "example": "場所 (ばしょ) — location" },
+            { "id": 3, "example": "事務所 (じむしょ) — office" }
+        ]
+    },
+    {
+        "id": 151,
+        "kanji": "産",
+        "meaning": "produce, give birth",
+        "on": "サン",
+        "kun": "う.む",
+        "sentence": "この地域は米の生産が盛んです。",
+        "reading": "このちいきはこめのせいさんがさかんです。",
+        "translation": "This region has active rice production.",
+        "examples": [
+            { "id": 1, "example": "生産 (せいさん) — production" },
+            { "id": 2, "example": "産む (うむ) — to give birth" },
+            { "id": 3, "example": "産業 (さんぎょう) — industry" }
+        ]
+    },
+    {
+        "id": 152,
+        "kanji": "業",
+        "meaning": "business, industry",
+        "on": "ギョウ",
+        "kun": "わざ",
+        "sentence": "卒業後、日本で働きたいです。",
+        "reading": "そつぎょうご、にほんではたらきたいです。",
+        "translation": "After graduation, I want to work in Japan.",
+        "examples": [
+            { "id": 1, "example": "卒業 (そつぎょう) — graduation" },
+            { "id": 2, "example": "産業 (さんぎょう) — industry" },
+            { "id": 3, "example": "農業 (のうぎょう) — agriculture" }
+        ]
+    },
+    {
+        "id": 153,
+        "kanji": "文",
+        "meaning": "sentence, literature",
+        "on": "ブン",
+        "kun": "ふみ",
+        "sentence": "この文の意味がわかりません。",
+        "reading": "このぶんのいみがわかりません。",
+        "translation": "I don't understand the meaning of this sentence.",
+        "examples": [
+            { "id": 1, "example": "文 (ぶん) — sentence" },
+            { "id": 2, "example": "文学 (ぶんがく) — literature" },
+            { "id": 3, "example": "文化 (ぶんか) — culture" }
+        ]
+    },
+    {
+        "id": 154,
+        "kanji": "漢",
+        "meaning": "China, Chinese",
+        "on": "カン",
+        "kun": "",
+        "sentence": "漢字は難しいですが、大切です。",
+        "reading": "かんじはむずかしいですが、たいせつです。",
+        "translation": "Kanji are difficult, but important.",
+        "examples": [
+            { "id": 1, "example": "漢字 (かんじ) — kanji" },
+            { "id": 2, "example": "漢方 (かんぽう) — Chinese medicine" },
+            { "id": 3, "example": "漢文 (かんぶん) — classical Chinese writing" }
+        ]
+    },
+    {
+        "id": 155,
+        "kanji": "英",
+        "meaning": "England, English",
+        "on": "エイ",
+        "kun": "",
+        "sentence": "英語の勉強は楽しいです。",
+        "reading": "えいごのべんきょうはたのしいです。",
+        "translation": "Studying English is fun.",
+        "examples": [
+            { "id": 1, "example": "英語 (えいご) — English language" },
+            { "id": 2, "example": "英国 (えいこく) — England, United Kingdom" },
+            { "id": 3, "example": "英会話 (えいかいわ) — English conversation" }
+        ]
+    },
+    {
+        "id": 156,
+        "kanji": "紙",
+        "meaning": "paper",
+        "on": "シ",
+        "kun": "かみ",
+        "sentence": "紙に名前を書いてください。",
+        "reading": "かみになまえをかいてください。",
+        "translation": "Please write your name on the paper.",
+        "examples": [
+            { "id": 1, "example": "紙 (かみ) — paper" },
+            { "id": 2, "example": "手紙 (てがみ) — letter" },
+            { "id": 3, "example": "新聞 (しんぶん) — newspaper" }
+        ]
+    },
+    {
+        "id": 157,
+        "kanji": "映",
+        "meaning": "reflect, project",
+        "on": "エイ",
+        "kun": "うつ.る",
+        "sentence": "映画を見るのが好きです。",
+        "reading": "えいがをみるのがすきです。",
+        "translation": "I like watching movies.",
+        "examples": [
+            { "id": 1, "example": "映画 (えいが) — movie" },
+            { "id": 2, "example": "映る (うつる) — to be reflected" },
+            { "id": 3, "example": "映写 (えいしゃ) — projection" }
+        ]
+    },
+    {
+        "id": 158,
+        "kanji": "映",
+        "meaning": "reflect, project (duplicate)",
+        "on": "エイ",
+        "kun": "うつ.る",
+        "sentence": "鏡に自分の顔が映っています。",
+        "reading": "かがみにじぶんのかおがうつっています。",
+        "translation": "My face is reflected in the mirror.",
+        "examples": [
+            { "id": 1, "example": "映る (うつる) — to be reflected" },
+            { "id": 2, "example": "映画 (えいが) — movie" },
+            { "id": 3, "example": "映し出す (うつしだす) — to project" }
+        ]
+    },
+    {
+        "id": 159,
+        "kanji": "写",
+        "meaning": "copy, photograph",
+        "on": "シャ",
+        "kun": "うつ.す",
+        "sentence": "写真を撮りました。",
+        "reading": "しゃしんをとりました。",
+        "translation": "I took a picture.",
+        "examples": [
+            { "id": 1, "example": "写真 (しゃしん) — photograph" },
+            { "id": 2, "example": "写す (うつす) — to copy" },
+            { "id": 3, "example": "写生 (しゃせい) — sketching" }
+        ]
+    },
+    {
+        "id": 160,
+        "kanji": "真",
+        "meaning": "true, reality",
+        "on": "シン",
+        "kun": "ま",
+        "sentence": "真実を話してください。",
+        "reading": "しんじつをはなしてください。",
+        "translation": "Please tell the truth.",
+        "examples": [
+            { "id": 1, "example": "真実 (しんじつ) — truth" },
+            { "id": 2, "example": "写真 (しゃしん) — photograph" },
+            { "id": 3, "example": "真ん中 (まんなか) — middle, center" }
+        ]
+    },
+    {
+        "id": 161,
+        "kanji": "風",
+        "meaning": "wind, style",
+        "on": "フウ",
+        "kun": "かぜ",
+        "sentence": "今日は風が強いです。",
+        "reading": "きょうはかぜがつよいです。",
+        "translation": "The wind is strong today.",
+        "examples": [
+            { "id": 1, "example": "風 (かぜ) — wind" },
+            { "id": 2, "example": "風邪 (かぜ) — cold (illness)" },
+            { "id": 3, "example": "和風 (わふう) — Japanese style" }
+        ]
+    },
+    {
+        "id": 162,
+        "kanji": "林",
+        "meaning": "woods, grove",
+        "on": "リン",
+        "kun": "はやし",
+        "sentence": "この林にはたくさんの鳥がいます。",
+        "reading": "このはやしにはたくさんのとりがいます。",
+        "translation": "There are many birds in this woods.",
+        "examples": [
+            { "id": 1, "example": "林 (はやし) — woods, grove" },
+            { "id": 2, "example": "森林 (しんりん) — forest" },
+            { "id": 3, "example": "林業 (りんぎょう) — forestry" }
+        ]
+    },
+    {
+        "id": 163,
+        "kanji": "森",
+        "meaning": "forest",
+        "on": "シン",
+        "kun": "もり",
+        "sentence": "森の中を散歩しました。",
+        "reading": "もりのなかをさんぽしました。",
+        "translation": "I walked through the forest.",
+        "examples": [
+            { "id": 1, "example": "森 (もり) — forest" },
+            { "id": 2, "example": "森林 (しんりん) — forest" },
+            { "id": 3, "example": "森の中 (もりのなか) — inside the forest" }
+        ]
+    },
+    {
+        "id": 164,
+        "kanji": "洋",
+        "meaning": "Western, ocean",
+        "on": "ヨウ",
+        "kun": "",
+        "sentence": "洋服より和服の方が好きです。",
+        "reading": "ようふくよりわふくのほうがすきです。",
+        "translation": "I like Japanese clothes more than Western clothes.",
+        "examples": [
+            { "id": 1, "example": "洋服 (ようふく) — Western clothes" },
+            { "id": 2, "example": "洋食 (ようしょく) — Western food" },
+            { "id": 3, "example": "太平洋 (たいへいよう) — Pacific Ocean" }
+        ]
+    },
+    {
+        "id": 165,
+        "kanji": "台",
+        "meaning": "stand, counter for machines",
+        "on": "ダイ",
+        "kun": "",
+        "sentence": "台所で料理をしています。",
+        "reading": "だいどころでりょうりをしています。",
+        "translation": "I am cooking in the kitchen.",
+        "examples": [
+            { "id": 1, "example": "台所 (だいどころ) — kitchen" },
+            { "id": 2, "example": "台風 (たいふう) — typhoon" },
+            { "id": 3, "example": "台 (だい) — stand, counter for vehicles/machines" }
+        ]
+    },
+    {
+        "id": 166,
+        "kanji": "旅",
+        "meaning": "travel",
+        "on": "リョ",
+        "kun": "たび",
+        "sentence": "夏休みに北海道へ旅行します。",
+        "reading": "なつやすみにほっかいどうへりょこうします。",
+        "translation": "I will travel to Hokkaido during summer vacation.",
+        "examples": [
+            { "id": 1, "example": "旅行 (りょこう) — travel, trip" },
+            { "id": 2, "example": "旅 (たび) — journey" },
+            { "id": 3, "example": "旅館 (りょかん) — Japanese inn" }
+        ]
     }
 ];
 
